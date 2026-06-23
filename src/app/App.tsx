@@ -421,7 +421,8 @@ function About() {
           <p
             style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-10"
-          > A fotografia me permitiu unir criatividade, sensibilidade e técnica em uma profissão que amo. Estou sempre em busca de novos desafios, experiências e oportunidades para evoluir meu trabalho e entregar registros que tenham significado para cada cliente.
+          >
+ A fotografia me permitiu unir criatividade, sensibilidade e técnica em uma profissão que amo. Estou sempre em busca de novos desafios, experiências e oportunidades para evoluir meu trabalho e entregar registros que tenham significado para cada cliente.
             Cada ensaio, evento ou projeto é uma oportunidade de contar histórias de forma única, criando lembranças que podem ser revividas por muitos anos.
           </p>
 
