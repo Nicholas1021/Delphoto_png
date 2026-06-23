@@ -390,7 +390,7 @@ function About() {
             />
          <img
   src="/images/delphoto IA.png"
-  alt="Lucas Moreira, fotógrafo profissional"
+  alt="Gabrielle Delpech"
   className="relative z-10 w-full h-auto object-cover object-center"
 />
           </div>
@@ -921,8 +921,8 @@ function Footer() {
             </h4>
             <ul className="space-y-3">
               {[
-                { label: "(XX) XXXXX-XXXX", href: `tel:+${WHATSAPP_NUMBER}` },
-                { label: "contato@lucasmoreirafoto.com", href: "mailto:contato@lucasmoreirafoto.com" },
+                { label: "(11) 98441-5038", href: `tel:+${WHATSAPP_NUMBER}` },
+                { label: "contatodoemail.com.com", href: "mailto:contatodoemail.com" },
                 { label: "São Paulo, SP — Brasil", href: "#" },
               ].map((item) => (
                 <li key={item.label}>
@@ -985,7 +985,7 @@ function Footer() {
           style={{ borderTop: "1px solid rgba(201,169,110,0.1)" }}
         >
           <p style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.72rem", letterSpacing: "0.1em" }}>
-            © 2024 Lucas Moreira Fotografia. Todos os direitos reservados.
+            © 2026 Delphoto_png. Todos os direitos reservados.
           </p>
           <p style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.72rem" }}>
             Feito com <span style={{ color: "#c9a96e" }}>♥</span> para eternizar momentos
