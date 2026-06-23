@@ -415,8 +415,7 @@ function About() {
           <p
             style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-5"
-          >Meu nome é Gabrielle, tenho 24 anos e sou de Guarulhos, SP.Sou apaixonada por fotografia e pela arte de registrar momentos únicos. Através das lentes, busco transformar emoções, histórias e detalhes em imagens que preservam memórias e despertam sentimentos.
-           Ao longo da minha trajetória, desenvolvi um olhar atento para captar a essência de cada pessoa, ambiente e ocasião, sempre valorizando a autenticidade e a beleza de cada momento.
+          >OIOIOI
           </p>
           <p
             style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
