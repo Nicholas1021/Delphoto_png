@@ -416,13 +416,15 @@ function About() {
             style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-5"
           >
-            Sou Gabrielle Delpech, fotógrafa profissional com mais de uma década de experiência capturando momentos que importam. Formado em Artes Visuais e especializado em fotografia documental e artística, desenvolvi um estilo único que une sensibilidade técnica com visão artística.
+           Meu nome é Gabrielle, tenho 24 anos e sou de Guarulhos, SP.Sou apaixonada por fotografia e pela arte de registrar momentos únicos. Através das lentes, busco transformar emoções, histórias e detalhes em imagens que preservam memórias e despertam sentimentos.
+           Ao longo da minha trajetória, desenvolvi um olhar atento para captar a essência de cada pessoa, ambiente e ocasião, sempre valorizando a autenticidade e a beleza de cada momento.
           </p>
           <p
             style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-10"
           >
-            Cada sessão é uma parceria. Meu objetivo é entender sua história e traduzir isso em imagens que durem para sempre. Trabalho com luz natural e artificial, sempre buscando a emoção autêntica por trás de cada cena.
+            A fotografia me permitiu unir criatividade, sensibilidade e técnica em uma profissão que amo. Estou sempre em busca de novos desafios, experiências e oportunidades para evoluir meu trabalho e entregar registros que tenham significado para cada cliente.
+            Cada ensaio, evento ou projeto é uma oportunidade de contar histórias de forma única, criando lembranças que podem ser revividas por muitos anos.
           </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
