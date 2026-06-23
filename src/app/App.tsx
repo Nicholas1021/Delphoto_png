@@ -126,7 +126,7 @@ function Label({ children }: { children: React.ReactNode }) {
     <p
       className="uppercase mb-4"
       style={{
-        fontFamily: "'Jost', sans-serif",
+        fontFamily: "'Playfair Display', serif",
         letterSpacing: "0.3em",
         color: "#c9a96e",
         fontSize: "0.7rem",
@@ -174,7 +174,7 @@ const links = [
               key={l.label}
               href={l.href}
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 letterSpacing: "0.22em",
                 fontSize: "0.68rem",
                 color: "#9a9080",
@@ -230,7 +230,7 @@ const links = [
                 href={l.href}
                 onClick={() => setOpen(false)}
                 style={{
-                  fontFamily: "'Jost', sans-serif",
+                  fontFamily: "'Playfair Display', serif",
                   color: "#9a9080",
                   letterSpacing: "0.2em",
                   fontSize: "0.7rem",
@@ -258,7 +258,7 @@ function Hero() {
       <div className="absolute inset-0" style={{ background: "#000" }}>
         <img
           src="/images/capa delphoto.jpeg"
-          alt="Fotografia de casamento elegante"
+          alt="Delphotoimage"
           className="w-full h-full object-cover"
           style={{ opacity: 0.45 }}
         />
@@ -277,7 +277,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
           style={{
-            fontFamily: "'Jost', sans-serif",
+            fontFamily: "'Playfair Display', serif",
             letterSpacing: "0.4em",
             color: "#c9a96e",
             fontSize: "0.7rem",
@@ -301,7 +301,7 @@ function Hero() {
           }}
           className="mb-7"
         >
-          <em style={{ color: "#c9a96e" }}>Você!</em><br />
+          <em style={{ color: "#c9a96e" }}>Você</em><br />
           É arte refletida através da minha lente e criada sob o meu olhar.
         </motion.h1>
 
@@ -310,7 +310,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
           style={{
-            fontFamily: "'Jost', sans-serif",
+            fontFamily: "'Playfair Display', serif",
             color: "rgba(255,255,255,0.65)",
             fontSize: "clamp(0.9rem, 2vw, 1.05rem)",
             letterSpacing: "0.06em",
@@ -331,7 +331,7 @@ function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              fontFamily: "'Jost', sans-serif",
+              fontFamily: "'Playfair Display', serif",
               background: "#c9a96e",
               color: "#0a0a0a",
               padding: "16px 32px",
@@ -351,7 +351,7 @@ function Hero() {
           <a
             href="#portfolio"
             style={{
-              fontFamily: "'Jost', sans-serif",
+              fontFamily: "'Playfair Display', serif",
               border: "1px solid rgba(255,255,255,0.45)",
               color: "#fff",
               padding: "16px 32px",
@@ -413,13 +413,13 @@ function About() {
           </h2>
           <GoldLine />
           <p
-            style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
+            style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-5"
           >
             Sou Gabrielle Delpech, fotógrafa profissional com mais de uma década de experiência capturando momentos que importam. Formado em Artes Visuais e especializado em fotografia documental e artística, desenvolvi um estilo único que une sensibilidade técnica com visão artística.
           </p>
           <p
-            style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
+            style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-10"
           >
             Cada sessão é uma parceria. Meu objetivo é entender sua história e traduzir isso em imagens que durem para sempre. Trabalho com luz natural e artificial, sempre buscando a emoção autêntica por trás de cada cena.
@@ -440,7 +440,7 @@ function About() {
                 </div>
                 <span
                   style={{
-                    fontFamily: "'Jost', sans-serif",
+                    fontFamily: "'Playfair Display', serif",
                     color: "#f5f0e8",
                     fontSize: "0.7rem",
                     letterSpacing: "0.18em",
@@ -458,7 +458,7 @@ function About() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              fontFamily: "'Jost', sans-serif",
+              fontFamily: "'Playfair Display', serif",
               border: "1px solid #c9a96e",
               color: "#c9a96e",
               padding: "14px 28px",
@@ -516,7 +516,7 @@ function Portfolio() {
           </h2>
           <GoldLine />
           <p
-            style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.95rem" }}
+            style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.95rem" }}
             className="max-w-lg mx-auto"
           >
             Cada imagem representa uma história única. Explore alguns dos momentos que tive o privilégio de eternizar.
@@ -558,7 +558,7 @@ function Portfolio() {
                   </div>
                   <p
                     style={{
-                      fontFamily: "'Jost', sans-serif",
+                      fontFamily: "'Playfair Display', serif",
                       color: "#c9a96e",
                       fontSize: "0.65rem",
                       letterSpacing: "0.25em",
@@ -600,7 +600,7 @@ function Portfolio() {
             target="_blank"
             rel="noopener noreferrer"
             style={{
-              fontFamily: "'Jost', sans-serif",
+              fontFamily: "'Playfair Display', serif",
               border: "1px solid rgba(201,169,110,0.25)",
               color: "#9a9080",
               padding: "14px 32px",
@@ -675,7 +675,7 @@ function Services() {
         </h2>
         <GoldLine />
         <p
-          style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.95rem" }}
+          style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.95rem" }}
           className="max-w-lg mx-auto"
         >
           Soluções fotográficas completas para cada momento da sua vida, com qualidade e atenção aos detalhes.
@@ -715,7 +715,7 @@ function Services() {
                 {svc.title}
               </h3>
               <p
-                style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", lineHeight: 1.7, fontSize: "0.88rem" }}
+                style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", lineHeight: 1.7, fontSize: "0.88rem" }}
               >
                 {svc.desc}
               </p>
@@ -751,14 +751,14 @@ function Services() {
               Precisa de algo especial?
             </h3>
             <p
-              style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.85rem" }}
+              style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.85rem" }}
               className="mb-5"
             >
               Entre em contato e vamos criar juntos o projeto perfeito para você.
             </p>
             <span
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 color: "#c9a96e",
                 fontSize: "0.65rem",
                 letterSpacing: "0.22em",
@@ -817,7 +817,7 @@ function Cta() {
           </h2>
           <GoldLine />
           <p
-            style={{ fontFamily: "'Jost', sans-serif", color: "rgba(255,255,255,0.65)", lineHeight: 1.8, fontSize: "0.95rem" }}
+            style={{ fontFamily: "'Playfair Display', serif", color: "rgba(255,255,255,0.65)", lineHeight: 1.8, fontSize: "0.95rem" }}
             className="mb-10"
           >
             Cada momento é único e merece ser eternizado com arte. Entre em contato agora mesmo, tire suas dúvidas e receba uma proposta personalizada sem compromisso.
@@ -829,7 +829,7 @@ function Cta() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 background: "#25D366",
                 color: "#fff",
                 padding: "16px 36px",
@@ -851,7 +851,7 @@ function Cta() {
               target="_blank"
               rel="noopener noreferrer"
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 border: "1px solid rgba(255,255,255,0.38)",
                 color: "#fff",
                 padding: "16px 28px",
@@ -891,11 +891,11 @@ function Footer() {
               className="mb-4"
             >
               <span style={{ color: "#c9a96e" }}>Del</span>
-              <span style={{ color: "#f5f0e8" }}>photo.png</span>
+              <span style={{ color: "#f5f0e8" }}>photo_png</span>
             </div>
             <p
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 color: "#9a9080",
                 fontSize: "0.88rem",
                 lineHeight: 1.75,
@@ -909,7 +909,7 @@ function Footer() {
           <div>
             <h4
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 color: "#c9a96e",
                 fontSize: "0.65rem",
                 letterSpacing: "0.28em",
@@ -928,7 +928,7 @@ function Footer() {
                 <li key={item.label}>
                   <a
                     href={item.href}
-                    style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.88rem" }}
+                    style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.88rem" }}
                     className="hover:text-[#c9a96e] transition-colors"
                   >
                     {item.label}
@@ -941,7 +941,7 @@ function Footer() {
           <div>
             <h4
               style={{
-                fontFamily: "'Jost', sans-serif",
+                fontFamily: "'Playfair Display', serif",
                 color: "#c9a96e",
                 fontSize: "0.65rem",
                 letterSpacing: "0.28em",
@@ -984,10 +984,10 @@ function Footer() {
           className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8"
           style={{ borderTop: "1px solid rgba(201,169,110,0.1)" }}
         >
-          <p style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.72rem", letterSpacing: "0.1em" }}>
+          <p style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.72rem", letterSpacing: "0.1em" }}>
             © 2024 Lucas Moreira Fotografia. Todos os direitos reservados.
           </p>
-          <p style={{ fontFamily: "'Jost', sans-serif", color: "#9a9080", fontSize: "0.72rem" }}>
+          <p style={{ fontFamily: "'Playfair Display', serif", color: "#9a9080", fontSize: "0.72rem" }}>
             Feito com <span style={{ color: "#c9a96e" }}>♥</span> para eternizar momentos
           </p>
         </div>
