@@ -891,8 +891,8 @@ function Footer() {
               style={{ fontFamily: "'Playfair Display', serif", fontSize: "1.4rem", letterSpacing: "0.15em" }}
               className="mb-4"
             >
-              <span style={{ color: "#c9a96e" }}>Del
-              <span style={{ color: "#f5f0e8" }}>photo_png</span>
+             <span style={{ color: "#c9a96e" }}>Del</span>
+             <span style={{ color: "#f5f0e8" }}>photo_png</span>
             </div>
             <p
               style={{
